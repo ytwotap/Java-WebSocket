@@ -168,6 +168,7 @@ public class Issue847Test {
         fail("There should not be a message!");
       }
 
+      @Override
       public void onMessage(ByteBuffer message) {
         threadReturned[0] = true;
         close();

@@ -73,6 +73,7 @@ import org.slf4j.LoggerFactory;
  * Implementation for the RFC 6455 websocket protocol This is the recommended class for your
  * websocket connection
  */
+
 public class Draft_6455 extends Draft {
 
   /**
